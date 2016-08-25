@@ -4,25 +4,26 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="33485443200504"
-    token="323367273825323928" >
+    timestamp="34195954690708"
+    token="323367273825323928"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="189" />
+        duration="155" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="773" />
     <task
         name="instant-run-transform"
-        duration="26" />
+        duration="18" />
     <task
         name="verifier"
-        duration="34" />
+        duration="3" />
 
     <artifact
-        location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
+        location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build timestamp="30769560865702" >
         <artifact
@@ -49,10 +50,52 @@
             location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
     </build>
-    <build timestamp="33485443200504" >
+    <build timestamp="33731621288950" >
         <artifact
             location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="33784822995043"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\33784822995043\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="33922281688368"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\33922281688368\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="34090812967862"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\34090812967862\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="34133452690850"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\34133452690850\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="34160085408644"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\34160085408644\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="34195954690708"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

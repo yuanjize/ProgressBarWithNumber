@@ -6,7 +6,10 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
+import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -36,11 +39,51 @@ public class MyProgressBar extends View {
     private int unReachedColor;
     //darwText的参数书
     private float textStart = 0;
-    private float textEnd;
+    private float textEnd = 0;
 
     //进度条圆角弧度
     private float arc = 10;
 
+    private static final String ARC = "ARC";
+    private static final String TEXTEND = "TEXTEND";
+    private static final String TEXTSTART = "TEXTSTART";
+    private static final String UNREACHEDCOLOR = "UNREACHEDCOLOR";
+    private static final String REACHEDCOLOR = "REACHEDCOLOR";
+    private static final String BARHEIGHT = "BARHEIGHT";
+    private static final String TEXTSIZE = "TEXTSIZE";
+    private static final String TEXTCOLOR = "TEXTCOLOR";
+
+    @Override
+    protected Parcelable onSaveInstanceState() {
+        super.onSaveInstanceState();
+        Bundle bundle = new Bundle();
+        bundle.putFloat(ARC, arc);
+        bundle.putFloat(BARHEIGHT, barHeight);
+        bundle.putInt(REACHEDCOLOR, reachedColor);
+        bundle.putInt(UNREACHEDCOLOR, unReachedColor);
+        bundle.putInt(TEXTCOLOR, textColor);
+        bundle.putFloat(TEXTSIZE, textSize);
+        bundle.putFloat(TEXTSTART, textStart);
+        bundle.putFloat(TEXTEND, textEnd);
+        return bundle;
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Parcelable state) {
+        if (state instanceof Bundle) {
+            Bundle bundle = new Bundle();
+            arc = bundle.getFloat(ARC, arc);
+            barHeight = bundle.getFloat(BARHEIGHT, barHeight);
+            reachedColor = bundle.getInt(REACHEDCOLOR, reachedColor);
+            unReachedColor = bundle.getInt(UNREACHEDCOLOR, unReachedColor);
+            textColor = bundle.getInt(TEXTCOLOR, textColor);
+            textSize = bundle.getFloat(TEXTSIZE, textSize);
+            textStart = bundle.getFloat(TEXTSTART, textStart);
+            textEnd = bundle.getFloat(TEXTEND, textEnd);
+            initPaints();
+        }
+        super.onRestoreInstanceState(state);
+    }
 
     public void setMaxValue(float maxValue) {
         if (maxValue >= 0)
@@ -142,25 +185,26 @@ public class MyProgressBar extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        String text = (int) ((getProgress()) / maxValue * 100) + "%";
+        String text = "   " + (int) ((getProgress()) / maxValue * 100) + "% ";
         float measureText = mTextPaint.measureText(text);
-        reachedRect.left = getPaddingLeft();
-        reachedRect.top = (getHeight() - barHeight) / 2;
-        reachedRect.bottom = barHeight + reachedRect.top;
-        reachedRect.right = getPaddingLeft() + ((getWidth() - getPaddingLeft() - getPaddingRight()) / getMaxValue() * getProgress());
-        textStart = reachedRect.right;
-
+        if (!hasNoSpace) {
+            reachedRect.left = getPaddingLeft();
+            reachedRect.top = (getHeight() - barHeight) / 2;
+            reachedRect.bottom = barHeight + reachedRect.top;
+            reachedRect.right = getPaddingLeft() + ((getWidth() - getPaddingLeft() - getPaddingRight()) / getMaxValue() * getProgress());
+            textStart = reachedRect.right;
+        }
         if ((textStart + measureText) >= (getWidth() - getPaddingRight())) {
+            Log.e("yuanjize", "..." + "hello");
+
             textStart = getWidth() - getPaddingRight() - measureText;
             hasNoSpace = true;
         }
         textEnd = (int) ((getHeight() / 2.0f) - ((mTextPaint.descent() + mTextPaint.ascent()) / 2.0f));
-        if (!hasNoSpace) {
-            unReachedRect.left = textStart + measureText;
-            unReachedRect.top = reachedRect.top;
-            unReachedRect.bottom = reachedRect.bottom;
-            unReachedRect.right = getWidth() - getPaddingRight();
-        }
+        unReachedRect.left = textStart + measureText;
+        unReachedRect.top = reachedRect.top;
+        unReachedRect.bottom = reachedRect.bottom;
+        unReachedRect.right = getWidth() - getPaddingRight();
         canvas.drawRoundRect(reachedRect, arc, arc, mReachesAreaPaint);
         canvas.drawRoundRect(unReachedRect, arc, arc, mUnReachesAreaPaint);
         canvas.drawText(text, textStart, textEnd, mTextPaint);
