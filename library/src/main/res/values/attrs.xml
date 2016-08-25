@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyProgressBar">
+        <attr name="reach_Color" format="color" />
+        <attr name="unReach_Color" format="color" />
+        <attr name="bar_Height" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="arc" format="float" />
+    </declare-styleable>
+
+</resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.yuan.numberprogressbardemo.MainActivity">
 
-    <com.yuan.numberprogressbardemo.MyProgressBar
+    <com.yuan.library.MyProgressBar
         android:id="@+id/number_progress_bar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"

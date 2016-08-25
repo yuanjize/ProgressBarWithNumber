@@ -3,6 +3,8 @@ package com.yuan.numberprogressbardemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.yuan.library.MyProgressBar;
+
 import java.util.Timer;
 import java.util.TimerTask;
 

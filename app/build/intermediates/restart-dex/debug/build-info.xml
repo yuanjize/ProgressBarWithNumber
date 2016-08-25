@@ -4,98 +4,30 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="34195954690708"
-    token="323367273825323928"
-    verifier="COMPATIBLE" >
+    timestamp="35987004090304"
+    token="323367273825323928" >
 
     <task
         name="javac"
-        duration="155" />
+        duration="421" />
     <task
         name="instant-run-dex"
-        duration="773" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="273" />
     <task
         name="verifier"
-        duration="3" />
+        duration="113" />
 
     <artifact
-        location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="30769560865702" >
+    <build timestamp="35987004090304" >
         <artifact
             location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="32478423490645" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="33283426700057"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\33283426700057\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="33380768297150" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="33731621288950" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="33784822995043"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\33784822995043\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="33922281688368"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\33922281688368\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="34090812967862"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\34090812967862\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="34133452690850"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\34133452690850\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="34160085408644"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\builds\debug\34160085408644\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="34195954690708"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

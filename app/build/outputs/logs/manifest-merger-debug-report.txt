@@ -15,6 +15,14 @@ ADDED from C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\src\main\
 		INJECTED from C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [NumberProgressBarDemo:library:unspecified] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\NumberProgressBarDemo\library\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
@@ -48,6 +56,7 @@ ADDED from C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\src\main\
 		ADDED from C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\src\main\AndroidManifest.xml:15:27-74
 uses-sdk
 INJECTED from C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [NumberProgressBarDemo:library:unspecified] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\NumberProgressBarDemo\library\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
@@ -55,7 +64,13 @@ MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.daimajia.numberprogressbar:library:1.2] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.daimajia.numberprogressbar\library\1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.1.1] C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
