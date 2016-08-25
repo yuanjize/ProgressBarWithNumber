@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="35987004090304"
+    timestamp="36807928184500"
     token="323367273825323928" >
 
     <task
         name="javac"
-        duration="421" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="273" />
+        duration="0" />
     <task
         name="verifier"
-        duration="113" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="35987004090304" >
+    <build timestamp="36245552770326" >
         <artifact
             location="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="36807928184500" />
 
 </instant-run>

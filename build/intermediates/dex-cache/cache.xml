@@ -5,7 +5,7 @@
         jar="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="3f686336044104da2279ea61201a658bcac30b2a">
+        sha1="9c45c74f01d8d220118c7fdc0055dd0c82af83a8">
         <dex dex="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_22867460269b2ef2b03592176cc28c1d9a983a50\classes.dex" />
     </item>
     <item
@@ -19,7 +19,7 @@
         jar="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="6c7ff788380648cc53011b78d89906eac7146007">
+        sha1="c3483ca746d9f6e2fccbdf69398ef21de0327d65">
         <dex dex="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_54e2c573a9ec0847ae08571cd816f0bdb935ed80\classes.dex" />
     </item>
     <item
@@ -28,13 +28,6 @@
         revision="24.0.1"
         sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
         <dex dex="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_fe7a0cb2e256c0af1aa1c11db1be20a460f3ad30\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.daimajia.numberprogressbar\library\1.2\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="4196173ec5799ff211761f90874802789c6cc4ac">
-        <dex dex="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.numberprogressbar-library-1.2_c8577987b94ee44dfcd0f45dc410c6eead1d3f82\classes.dex" />
     </item>
     <item
         jar="C:\Users\yjz\Desktop\filess\code1\NumberProgressBarDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"

@@ -3,13 +3,13 @@ package com.yuan.numberprogressbardemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.yuan.library.MyProgressBar;
+import com.yuan.library.ProgressBarWithNumber;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
-    private MyProgressBar bar;
+    private ProgressBarWithNumber bar;
     private Timer timer;
     private int i = 0;
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bar = (MyProgressBar) findViewById(R.id.number_progress_bar);
+        bar = (ProgressBarWithNumber) findViewById(R.id.number_progress_bar);
         bar.setMaxValue(150);
         timer = new Timer();
         timer.schedule(new TimerTask() {

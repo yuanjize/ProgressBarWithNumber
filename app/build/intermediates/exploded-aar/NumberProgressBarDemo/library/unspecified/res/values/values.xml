@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="MyProgressBar"><attr format="color" name="reach_Color"/><attr format="color" name="unReach_Color"/><attr format="dimension" name="bar_Height"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="float" name="arc"/></declare-styleable>
+    <declare-styleable name="ProgressBarWithNumber"><attr format="color" name="reach_Color"/><attr format="color" name="unReach_Color"/><attr format="dimension" name="bar_Height"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="float" name="arc"/></declare-styleable>
     <string name="app_name">Library</string>
 </resources>

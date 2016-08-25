@@ -5670,27 +5670,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MyProgressBar_arc com.yuan.library:arc}</code></td><td></td></tr>
-           <tr><td><code>{@link #MyProgressBar_bar_Height com.yuan.library:bar_Height}</code></td><td></td></tr>
-           <tr><td><code>{@link #MyProgressBar_reach_Color com.yuan.library:reach_Color}</code></td><td></td></tr>
-           <tr><td><code>{@link #MyProgressBar_textColor com.yuan.library:textColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #MyProgressBar_textSize com.yuan.library:textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #MyProgressBar_unReach_Color com.yuan.library:unReach_Color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBarWithNumber_arc com.yuan.library:arc}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBarWithNumber_bar_Height com.yuan.library:bar_Height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBarWithNumber_reach_Color com.yuan.library:reach_Color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBarWithNumber_textColor com.yuan.library:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBarWithNumber_textSize com.yuan.library:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBarWithNumber_unReach_Color com.yuan.library:unReach_Color}</code></td><td></td></tr>
            </table>
-           @see #MyProgressBar_arc
-           @see #MyProgressBar_bar_Height
-           @see #MyProgressBar_reach_Color
-           @see #MyProgressBar_textColor
-           @see #MyProgressBar_textSize
-           @see #MyProgressBar_unReach_Color
+           @see #ProgressBarWithNumber_arc
+           @see #ProgressBarWithNumber_bar_Height
+           @see #ProgressBarWithNumber_reach_Color
+           @see #ProgressBarWithNumber_textColor
+           @see #ProgressBarWithNumber_textSize
+           @see #ProgressBarWithNumber_unReach_Color
          */
-        public static final int[] MyProgressBar = {
+        public static final int[] ProgressBarWithNumber = {
             0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
             0x7f0100b5, 0x7f0100b6
         };
         /**
           <p>This symbol is the offset where the {@link com.yuan.library.R.attr#arc}
-          attribute's value can be found in the {@link #MyProgressBar} array.
+          attribute's value can be found in the {@link #ProgressBarWithNumber} array.
 
 
           <p>Must be a floating point value, such as "<code>1.2</code>".
@@ -5701,10 +5701,10 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.yuan.library:arc
         */
-        public static int MyProgressBar_arc = 5;
+        public static int ProgressBarWithNumber_arc = 5;
         /**
           <p>This symbol is the offset where the {@link com.yuan.library.R.attr#bar_Height}
-          attribute's value can be found in the {@link #MyProgressBar} array.
+          attribute's value can be found in the {@link #ProgressBarWithNumber} array.
 
 
           <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -5717,10 +5717,10 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.yuan.library:bar_Height
         */
-        public static int MyProgressBar_bar_Height = 2;
+        public static int ProgressBarWithNumber_bar_Height = 2;
         /**
           <p>This symbol is the offset where the {@link com.yuan.library.R.attr#reach_Color}
-          attribute's value can be found in the {@link #MyProgressBar} array.
+          attribute's value can be found in the {@link #ProgressBarWithNumber} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -5732,10 +5732,10 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.yuan.library:reach_Color
         */
-        public static int MyProgressBar_reach_Color = 0;
+        public static int ProgressBarWithNumber_reach_Color = 0;
         /**
           <p>This symbol is the offset where the {@link com.yuan.library.R.attr#textColor}
-          attribute's value can be found in the {@link #MyProgressBar} array.
+          attribute's value can be found in the {@link #ProgressBarWithNumber} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -5747,10 +5747,10 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.yuan.library:textColor
         */
-        public static int MyProgressBar_textColor = 3;
+        public static int ProgressBarWithNumber_textColor = 3;
         /**
           <p>This symbol is the offset where the {@link com.yuan.library.R.attr#textSize}
-          attribute's value can be found in the {@link #MyProgressBar} array.
+          attribute's value can be found in the {@link #ProgressBarWithNumber} array.
 
 
           <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -5763,10 +5763,10 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.yuan.library:textSize
         */
-        public static int MyProgressBar_textSize = 4;
+        public static int ProgressBarWithNumber_textSize = 4;
         /**
           <p>This symbol is the offset where the {@link com.yuan.library.R.attr#unReach_Color}
-          attribute's value can be found in the {@link #MyProgressBar} array.
+          attribute's value can be found in the {@link #ProgressBarWithNumber} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -5778,7 +5778,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.yuan.library:unReach_Color
         */
-        public static int MyProgressBar_unReach_Color = 1;
+        public static int ProgressBarWithNumber_unReach_Color = 1;
         /** Attributes that can be used with a PopupWindow.
            <p>Includes the following attributes:</p>
            <table>
