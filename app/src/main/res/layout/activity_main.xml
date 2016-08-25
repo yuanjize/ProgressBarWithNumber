@@ -16,6 +16,6 @@
         app:bar_Height="20dp"
         app:reach_Color="@android:color/holo_blue_bright"
         app:textColor="@color/colorPrimary"
-        app:textSize="5sp"
+        app:textSize="14sp"
         app:unReach_Color="@android:color/holo_green_light" />
 </RelativeLayout>

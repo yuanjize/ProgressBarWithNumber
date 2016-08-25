@@ -150,7 +150,7 @@ public class MyProgressBar extends View {
         reachedRect.right = getPaddingLeft() + ((getWidth() - getPaddingLeft() - getPaddingRight()) / getMaxValue() * getProgress());
         textStart = reachedRect.right;
 
-        if ((textStart + measureText) > (getWidth() - getPaddingRight())) {
+        if ((textStart + measureText) >= (getWidth() - getPaddingRight())) {
             textStart = getWidth() - getPaddingRight() - measureText;
             hasNoSpace = true;
         }

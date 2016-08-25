@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bar = (MyProgressBar) findViewById(R.id.number_progress_bar);
-        bar.setMaxValue(5000);
+        bar.setMaxValue(150);
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
